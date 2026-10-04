@@ -6,6 +6,10 @@ Bản Việt hóa của MOD 焚天阁 (Phần Thiên Các) 4.6.1. MOD này là W
 |---|---|
 | `4.6.1.Viet.json` | World Info đã dịch hoàn toàn. Đã sửa lỗi theo bộ tiêu chí QA (message.txt) và dùng tên biến của 5.4.2. |
 | `BAO_CAO_QA.md` | Báo cáo QA theo các hạng mục 0–7. |
+| `4.6.2.Viet.json` | Bản cập nhật 4.6.2 (Việt hóa, mang theo toàn bộ sửa lỗi của 4.6.1, thêm Lạc Ân Từ và Thẩm Tri Miểu). |
+| `BAO_CAO_QA_4.6.2.md` | Báo cáo QA bổ sung cho 4.6.2. |
+| `chan_dung_4.6.2.json` | Ảnh chân dung (URL từ Workshop 4.6.2), sắp theo tên tiếng Việt, 66 nhân vật/68 ảnh — dùng cho Thanh trạng thái. |
+| `ten_nhan_vat_nu_4.6.2.txt` | Danh sách tên nhân vật nữ (tiếng Việt) để đưa vào Regex Tuyệt Sắc Bảng. |
 | `glossary.md` | Bảng thuật ngữ và tên biến dùng khi dịch. |
 
 ## Cài đặt
