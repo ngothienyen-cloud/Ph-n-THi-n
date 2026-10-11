@@ -9,6 +9,7 @@ Bản Việt hóa của MOD 焚天阁 (Phần Thiên Các) 4.6.2. MOD này là W
 | `chan_dung_4.6.2.json` | Ảnh chân dung (URL từ Workshop 4.6.2), sắp theo tên tiếng Việt, 66 nhân vật/68 ảnh — dùng cho Thanh trạng thái. |
 | `ten_nhan_vat_nu_4.6.2.txt` | Danh sách tên nhân vật nữ (tiếng Việt) để đưa vào Regex Tuyệt Sắc Bảng. |
 | `DaoUyen_5.4.2_Viet_PhanThienCac_4.6.2.png` | Thẻ Đạo Uyên 5.4.2 Việt hóa đã cập nhật: Thanh trạng thái (regex MVU.MOD) có ảnh chân dung 66 nhân vật Phần Thiên Các; 2 regex Tuyệt Sắc Bảng Huyền Thiên Giới có thêm 63 tên; regex Thiên Đạo Phán Định có bảng ảnh 66 nhân vật nhúng sẵn. |
+| `dang_hoa_lan_san/index.html` | Frontend Đăng Hỏa Lan San (Việt hóa), làm nguồn CDN cho regex `regex-Dang_Hoa_Lan_San_Frontend_Viet.json`. |
 | `regex/*.json` | Bốn regex đã sửa (Thanh trạng thái, Thiên Đạo Phán Định, Tuyệt Sắc Bảng 1/2), xuất riêng để nhập thẳng vào SillyTavern nếu không muốn thay cả thẻ. |
 
 ## Cài đặt
