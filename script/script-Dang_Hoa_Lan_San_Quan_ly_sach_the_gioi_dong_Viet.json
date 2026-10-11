@@ -1,0 +1,29 @@
+{
+  "type": "script",
+  "enabled": true,
+  "name": "Đăng Hỏa Lan San - Quản lý sách thế giới động (Việt hóa)",
+  "id": "8bf8a368-c013-478c-8bf8-d3dfa8d20609",
+  "content": "import 'https://cdn.jsdelivr.net/gh/ngothienyen-cloud/Ph-n-THi-n@5dfa724f85b6068af4c51f8a0933e3a6dcb23cd3/quan_ly_sach_the_gioi_dong/index.js'",
+  "info": "",
+  "button": {
+    "enabled": true,
+    "buttons": []
+  },
+  "data": {
+    "enabled": true,
+    "auto_apply": true,
+    "debug": true,
+    "show_toasts": true,
+    "context_window": 2,
+    "debounce_delay": 500,
+    "map_sticky_cycles": 3,
+    "character_sticky_cycles": 2,
+    "forced_enable_entries": [],
+    "forced_disable_entries": [],
+    "character_context_window": 2
+  },
+  "export_with": {
+    "data": true,
+    "button": true
+  }
+}
