@@ -682,7 +682,7 @@ const te = M.z
 function re(e) {
   const t = ee(e),
     n = Math.floor((t - 1) / 4);
-  return `${V[n] ?? "Luyện Khí"}${R[(t - 1) % 4] ?? "Sơ kỳ"}`;
+  return `${V[n] ?? "Luyện Khí"} ${R[(t - 1) % 4] ?? "Sơ kỳ"}`;
 }
 function ae(e, t = 3) {
   const n = (function (e = 3) {
@@ -1195,7 +1195,7 @@ const _e = {
       return (
         e.forEach((e, n) => {
           const r = _.isPlainObject(e) ? e : {},
-            a = String(r['Tên gọi'] ?? `Kẻ địch chưa biết${n + 1}`).trim() || `Kẻ địch chưa biết${n + 1}`;
+            a = String(r['Tên gọi'] ?? `Kẻ địch chưa biết ${n + 1}`).trim() || `Kẻ địch chưa biết ${n + 1}`;
           let s = a,
             i = 2;
           for (; _.has(t, s);) ((s = `${a}·${i}`), (i += 1));
