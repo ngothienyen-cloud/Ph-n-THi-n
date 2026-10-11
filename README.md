@@ -9,6 +9,10 @@ Bản Việt hóa của MOD 焚天阁 (Phần Thiên Các) 4.6.2. MOD này là W
 | `chan_dung_4.6.2.json` | Ảnh chân dung (URL từ Workshop 4.6.2), sắp theo tên tiếng Việt, 66 nhân vật/68 ảnh — dùng cho Thanh trạng thái. |
 | `ten_nhan_vat_nu_4.6.2.txt` | Danh sách tên nhân vật nữ (tiếng Việt) để đưa vào Regex Tuyệt Sắc Bảng. |
 | `DaoUyen_5.4.2_Viet_PhanThienCac_4.6.2.png` | Thẻ Đạo Uyên 5.4.2 Việt hóa đã cập nhật: Thanh trạng thái (regex MVU.MOD) có ảnh chân dung 66 nhân vật Phần Thiên Các; 2 regex Tuyệt Sắc Bảng Huyền Thiên Giới có thêm 63 tên; regex Thiên Đạo Phán Định có bảng ảnh 66 nhân vật nhúng sẵn. |
+| `Dang_Hoa_U_Vi_da_sua.json` | Thẻ Đăng Hỏa U (Việt hóa) đã sửa MVU/regex/initvar; báo cáo tại `BAO_CAO_QA_Dang_Hoa_U_Vi.md`. |
+| `cau_truc_bien/index.js` | Cấu trúc biến (schema MVU) tiếng Việt của Đăng Hỏa Lan San. |
+| `dieu_khien_nguy_dong_tang/index.js` | Bộ điều khiển ngụy đồng tầng (Việt hóa). |
+| `chi_muc_loi_mo_dau/index.js` | Script chỉ mục lời mở đầu (Việt hóa). |
 | `dang_hoa_lan_san/index.html` | Frontend Đăng Hỏa Lan San (Việt hóa), làm nguồn CDN cho regex `regex-Dang_Hoa_Lan_San_Frontend_Viet.json`. |
 | `quan_ly_sach_the_gioi_dong/index.js` | Script Quản lý sách thế giới động (Việt hóa), nguồn CDN cho `script/script-Dang_Hoa_Lan_San_Quan_ly_sach_the_gioi_dong_Viet.json` (nhập vào Trợ lý Tavern). |
 | `regex/*.json` | Bốn regex đã sửa (Thanh trạng thái, Thiên Đạo Phán Định, Tuyệt Sắc Bảng 1/2), xuất riêng để nhập thẳng vào SillyTavern nếu không muốn thay cả thẻ. |
