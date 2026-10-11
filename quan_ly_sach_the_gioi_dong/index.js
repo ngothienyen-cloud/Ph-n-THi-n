@@ -602,9 +602,9 @@ const J = {
     'Xung quan': "Đang đột phá",
     'Phá cảnh': "Đang đột phá",
     'Thử đột phá': "Đang đột phá",
-    'Ổn định trung': "Ổn định trung",
-    'Đang củng cố': "Ổn định trung",
-    'Căn cơ chưa vững': "Ổn định trung",
+    'Đang ổn định': 'Đang ổn định',
+    'Đang củng cố': 'Đang ổn định',
+    'Căn cơ chưa vững': 'Đang ổn định',
     'Đang áp cảnh': "Đang áp cảnh",
     'Ép cảnh giới': "Đang áp cảnh",
     'Giấu tài dưỡng cảnh': "Đang áp cảnh",
@@ -623,9 +623,9 @@ const J = {
   Z = {
     'Không': "Không",
     "": "Không",
-    'đột phá': "đột phá",
-    'Đột phá bình thường': "đột phá",
-    'Tấn thăng': "đột phá",
+    'Đột phá': 'Đột phá',
+    'Đột phá bình thường': 'Đột phá',
+    'Tấn thăng': 'Đột phá',
     'Đột phá vượt cấp': "Đột phá vượt cấp",
     'Đột phá liên tục': "Đột phá vượt cấp",
     'Phá liên tiếp': "Đột phá vượt cấp",
@@ -797,8 +797,8 @@ function de(e) {
       const r = e?.['Giai đoạn'] || "Đang tu luyện";
       return "Đang đột phá" === r
         ? "Đang đột phá"
-        : "Ổn định trung" === r
-          ? "Ổn định trung"
+        : 'Đang ổn định' === r
+          ? 'Đang ổn định'
           : "Đang áp cảnh" === r
             ? "Đang áp cảnh"
             : "Đang gặp bình cảnh" === r || t >= n
@@ -994,14 +994,14 @@ const _e = {
     'Không': "Không",
     "": "Không",
     'Vô kiếp': "Không",
-    'lôi kiếp': "lôi kiếp",
-    'Thiên lôi': "lôi kiếp",
-    'Lôi': "lôi kiếp",
+    'Lôi kiếp': 'Lôi kiếp',
+    'Thiên lôi': 'Lôi kiếp',
+    'Lôi': 'Lôi kiếp',
     'Tâm kiếp': "Tâm kiếp",
     'Tâm ma': "Tâm kiếp",
     'Ma kiếp': "Tâm kiếp",
-    'thiên kiếp': "thiên kiếp",
-    'Đại kiếp': "thiên kiếp",
+    'Thiên kiếp': 'Thiên kiếp',
+    'Đại kiếp': 'Thiên kiếp',
     'Tình kiếp': "Tình kiếp",
     'Ải tình': "Tình kiếp",
     'Nhân quả kiếp': "Nhân quả kiếp",
@@ -1448,7 +1448,7 @@ const _e = {
     'Thám hiểm': "Thám hiểm bí cảnh",
     'Nhiệm vụ bí cảnh': "Thám hiểm bí cảnh",
     dungeon: "Thám hiểm bí cảnh",
-    'tu luyện': "Tuyến nhánh",
+    'Tu luyện': "Tuyến nhánh",
     'Nhiệm vụ tu luyện': "Tuyến nhánh",
   },
   Ue = M.z.object({
@@ -1568,7 +1568,7 @@ const _e = {
     'Chiến đấu': "Chiến đấu",
     'Tranh đoạt': "Chiến đấu",
     'Thách đấu': "Chiến đấu",
-    'tu luyện': "tu luyện",
+    'Tu luyện': 'Tu luyện',
     'Chỉnh đốn': "Chỉnh đốn",
     'Giao dịch': "Chỉnh đốn",
     'Mua sắm': "Chỉnh đốn",
@@ -1588,9 +1588,9 @@ const _e = {
     battle: "Chiến đấu",
     combat: "Chiến đấu",
     fight: "Chiến đấu",
-    cultivate: "tu luyện",
-    cultivation: "tu luyện",
-    training: "tu luyện",
+    cultivate: 'Tu luyện',
+    cultivation: 'Tu luyện',
+    training: 'Tu luyện',
     prepare: "Chỉnh đốn",
     preparation: "Chỉnh đốn",
     supply: "Chỉnh đốn",
@@ -1605,7 +1605,7 @@ const _e = {
       pattern:
         /(?:红颜|Hồng nhan)|(?:佳人|Giai nhân)|(?:道|Đạo)(?:侣|Lữ)|(?:双修|Song tu)|(?:温情|Dịu dàng)|(?:独处|Riêng tư)|(?:相拥|Ôm nhau)|(?:相守|Bên nhau)|(?:调情|Trêu ghẹo)|(?:缠绵|Quấn quýt)|(?:共|Tổng)(?:寝|Nghỉ ngơi)|(?:同眠|Cùng ngủ)|(?:亲吻|Hôn môi)|(?:亲密|Thân mật)|(?:忘忧|Vong Ưu)|(?:听雨|Thính Vũ)|(?:清弦|Thanh Huyền)|(?:晚棠|Vãn Đường)|(?:云裳|Vân Thường)|(?:梦杳泠|Mộng Diểu Linh)|(?:羽岚|Vũ Lam)|(?:羽岚烟|Vũ Lam Yên)|(?:岚烟|Lam Yên)|(?:朔璃鸢|Sóc Ly Diên)|(?:阿鸢|A Uyên)|(?:血手飞鸢|Huyết Thủ Phi Diên)|(?:朔望舒|Sóc Vọng Thư)|(?:赤月女帝|Xích Nguyệt Nữ Đế)|(?:幽影宗主|U Ảnh Tông Chủ)|(?:虞汐|Ngu Tịch)|(?:虞颜|Ngu Nhan)|(?:虞汐颜|Ngu Tịch Nhan)|(?:沈倩宁|Thẩm Thiến Ninh)|(?:倩宁|Thiến Ninh)|(?:赤血狂刃|Xích Huyết Cuồng Nhận)/,
     },
-    { type: "tu luyện", pattern: /(?:修炼|tu luyện)|(?:闭关|bế quan)|(?:打坐|Đả tọa)|(?:吐纳|Thổ nạp)|(?:调息|Điều tức)|(?:冲关|Xung quan)|(?:破境|Phá cảnh)|(?:突破|đột phá)|(?:压境|Đè nén cảnh giới)|(?:稳固|Củng cố)|(?:悟|Ngộ)(?:道|Đạo)|(?:渡劫|Độ Kiếp)|(?:根|Căn)(?:基|Cơ)|(?:炼化|Luyện hóa)|(?:参悟|Lĩnh ngộ)/ },
+    { type: 'Tu luyện', pattern: /(?:修炼|tu luyện)|(?:闭关|bế quan)|(?:打坐|Đả tọa)|(?:吐纳|Thổ nạp)|(?:调息|Điều tức)|(?:冲关|Xung quan)|(?:破境|Phá cảnh)|(?:突破|đột phá)|(?:压境|Đè nén cảnh giới)|(?:稳固|Củng cố)|(?:悟|Ngộ)(?:道|Đạo)|(?:渡劫|Độ Kiếp)|(?:根|Căn)(?:基|Cơ)|(?:炼化|Luyện hóa)|(?:参悟|Lĩnh ngộ)/ },
     {
       type: "Chỉnh đốn",
       pattern: /(?:整备|Chỉnh đốn)|(?:修复|Tu bổ)|(?:炼|Luyện)(?:器|Khí)|(?:疗伤|Chữa thương)|(?:丹药|đan dược)|(?:灵|Linh)(?:阵|Trận)|(?:阵纹|Trận văn)|(?:坊市|Phường Thị)|(?:易物|Đổi vật phẩm)|(?:交易|Giao dịch)|(?:买卖|Mua bán)|(?:采购|Mua sắm)|(?:拍卖|Đấu giá)|(?:商会|Thương hội)|(?:补给|Tiếp tế)|(?:售卖|Bán ra)|(?:收购|Thu mua)|(?:置换|Hoán đổi)/,
@@ -1618,15 +1618,15 @@ function Ye(e) {
   return String(e ?? "").trim();
 }
 function qe(e, t) {
-  const n = Pe[Ye(e).toLowerCase()];
+  const n = (Pe[Ye(e)]??Pe[Ye(e).toLowerCase()]);
   return n || ("Phản hồi sự kiện đã xảy ra" === t ? "Phản hồi sự kiện" : "Thiết lập sau khi chọn" === t ? "Hành động sự kiện" : "Hành động hiện tại");
 }
 function Xe(e, t, n) {
-  const r = Ge[Ye(e).toLowerCase()];
+  const r = (Ge[Ye(e)]??Ge[Ye(e).toLowerCase()]);
   return r || (n ? "Phản hồi sự kiện đã xảy ra" : t ? "Thiết lập sau khi chọn" : "Không có sự kiện");
 }
 function Qe(e, t) {
-  const n = We[Ye(e).toLowerCase()];
+  const n = (We[Ye(e)]??We[Ye(e).toLowerCase()]);
   if (n) return n;
   const r = Object.values(t)
     .map((e) => Ye(e))
@@ -1675,7 +1675,7 @@ const et = M.z.object({
     'Loại hình tự sự': M.z.coerce.string().transform(Ye).optional(),
     'Tính chất sự kiện': M.z.coerce.string().transform(Ye).optional(),
     'Sự kiện': M.z.coerce.string().transform(Ye).optional(),
-    'Sự kiện liên kếtID': M.z.coerce.string().transform(Ye).optional(),
+    'ID sự kiện liên quan': M.z.coerce.string().transform(Ye).optional(),
     'Gợi ý': M.z.coerce.string().transform(Ye).optional(),
   }),
   tt = M.z.object({
@@ -1704,7 +1704,7 @@ const et = M.z.object({
       const t = Ye(e['Tiêu đề']),
         n = Ye(e['Gợi ý']),
         r = Ye(e['Sự kiện']),
-        a = Ye(e['Sự kiện liên kếtID']),
+        a = Ye(e['ID sự kiện liên quan']),
         s = Xe(e['Tính chất sự kiện'], r, a);
       return {
         ...(t ? { 'Tiêu đề': t } : {}),
@@ -1713,7 +1713,7 @@ const et = M.z.object({
         'Loại hình tự sự': qe(e['Loại hình tự sự'], s),
         'Tính chất sự kiện': s,
         ...(r ? { 'Sự kiện': r } : {}),
-        ...(a ? { 'Sự kiện liên kếtID': a } : {}),
+        ...(a ? { 'ID sự kiện liên quan': a } : {}),
         ...(n ? { 'Gợi ý': n } : {}),
       };
     }
@@ -1730,7 +1730,7 @@ const et = M.z.object({
         'Loại hình tự sự': qe(e.narrativeKind, s),
         'Tính chất sự kiện': s,
         ...(r ? { 'Sự kiện': r } : {}),
-        ...(a ? { 'Sự kiện liên kếtID': a } : {}),
+        ...(a ? { 'ID sự kiện liên quan': a } : {}),
         ...(n ? { 'Gợi ý': n } : {}),
       };
     }
@@ -1758,7 +1758,7 @@ const et = M.z.object({
       'Loại hình tự sự': qe("", i),
       'Tính chất sự kiện': i,
       ...(a ? { 'Sự kiện': a } : {}),
-      ...(s ? { 'Sự kiện liên kếtID': s } : {}),
+      ...(s ? { 'ID sự kiện liên quan': s } : {}),
       ...(n ? { 'Gợi ý': n } : {}),
     };
   }),
@@ -1854,12 +1854,12 @@ const et = M.z.object({
     .transform((e) => {
       const t = Ye(e['Trạng thái']),
         n = Ye(e['Giai đoạn']) || t,
-        r = it[t.toLowerCase()] ?? "Đang hoạt động",
-        a = ot[n.toLowerCase()] ?? ("Đang hoạt động" === r ? "Điềm báo" : "Khép lại"),
+        r = (it[t]??it[t.toLowerCase()]) ?? "Đang hoạt động",
+        a = (ot[n]??ot[n.toLowerCase()]) ?? ("Đang hoạt động" === r ? "Điềm báo" : "Khép lại"),
         s = Ye(e['Địa điểm']),
         i = Ye(e['Biến đổi gần đây']),
-        o = lt[Ye(e['Tình hình tham gia']).toLowerCase()] ?? "Chưa can thiệp",
-        l = ct[Ye(e['Cấp độ ảnh hưởng']).toLowerCase()] ?? "Gợn sóng nhỏ",
+        o = (lt[Ye(e['Tình hình tham gia'])]??lt[Ye(e['Tình hình tham gia']).toLowerCase()]) ?? "Chưa can thiệp",
+        l = (ct[Ye(e['Cấp độ ảnh hưởng'])]??ct[Ye(e['Cấp độ ảnh hưởng']).toLowerCase()]) ?? "Gợn sóng nhỏ",
         c = Ye(e['Thời gian cập nhật']);
       return {
         'Trạng thái': r,
@@ -2080,7 +2080,7 @@ const et = M.z.object({
       'Ưu': "Thần" === e['Chất'] ? "Chí cao" : "Thánh" === e['Chất'] ? "Cực mạnh" : "Đạo" === e['Chất'] ? "Mạnh" : "Linh" === e['Chất'] ? "Vừa" : "Không",
     })),
   yt = we.parse({}),
-  xt = /[\u3400-\u4dbf\u4e00-\u9fff]/;
+  xt = /[\u00c0-\u024f\u1e00-\u1eff\u3400-\u4dbf\u4e00-\u9fff]/u;
 function At(e, t) {
   return Array.from(
     String(e ?? "")
@@ -2097,9 +2097,9 @@ function Ct(e, t, n) {
 function _t(e) {
   const t = String(e ?? "").trim();
   if (!t) return "";
-  const n = t.replace(/^(?:[A-Za-z][A-Za-z0-9]*)(?:[._:\-/\\\s]+[A-Za-z0-9]+)*[._:\-/\\\s]*/u, "").trim() || t,
+  const n = t.replace(/^(?:[A-Za-z]*\d[A-Za-z0-9]*|[A-Za-z0-9]*_[A-Za-z0-9_]*)(?:[._:\-/\\\s]+(?:[A-Za-z]*\d[A-Za-z0-9]*|[A-Za-z0-9]*_[A-Za-z0-9_]*))*[._:\-/\\\s]*/u, "").trim() || t,
     r = n.search(xt);
-  return r < 0 ? "" : n.slice(r).trim();
+  return r < 0 ? "" : n.trim();
 }
 function St(e, t) {
   if (!e) return _.cloneDeep(t);
@@ -2428,7 +2428,7 @@ const $t = M.z.preprocess(
                 const r = At(e['Gợi ý'], 28),
                   a = At(e['Tiêu đề'], 24),
                   s = At(e['Sự kiện'], 72),
-                  i = At(e['Sự kiện liên kếtID'], 48);
+                  i = At(e['ID sự kiện liên quan'], 48);
                 return [
                   {
                     ...(a ? { 'Tiêu đề': a } : {}),
@@ -2437,7 +2437,7 @@ const $t = M.z.preprocess(
                     'Loại hình tự sự': e['Loại hình tự sự'],
                     'Tính chất sự kiện': e['Tính chất sự kiện'],
                     ...(s ? { 'Sự kiện': s } : {}),
-                    ...(i ? { 'Sự kiện liên kếtID': i } : {}),
+                    ...(i ? { 'ID sự kiện liên quan': i } : {}),
                     ...(r ? { 'Gợi ý': r } : {}),
                   },
                 ];
@@ -4343,8 +4343,8 @@ const Ga = {
   KEEP_ENABLED_AFTER_REPLY: [
     /^\[(?:系统|Hệ thống)\]/,
     /^\[mvu_update\]/,
-    /^\[mvu\](?:变量列表|Danh sách biến)$/,
-    /^\[(?:红颜|Hồng nhan)(?:索引|Chỉ mục)\]$/,
+    /^(?:\[mvu\]\s*)?(?:变量列表|Danh sách biến)$/,
+    /^(?:\[(?:红颜索引|Hồng nhan\s*Chỉ mục|Chỉ mục hồng nhan)\]|Chỉ mục hồng nhan)$/,
     /^\[(?:地图|Bản đồ)\]/,
     /^\[(?:境界|cảnh giới)\]/,
   ],
@@ -4842,8 +4842,8 @@ function bs(e, t) {
     forced: "",
   };
 }
-const Es = ["Giai đoạn xa lạ", "Giai đoạn hảo cảm", "Giai đoạn rung động", "Giai đoạn xác nhận", "Giai đoạn yêu sâu sắc"],
-  ys = { 'Giai đoạn xa cách': "Giai đoạn xa lạ", 'Giai đoạn để ý': "Giai đoạn hảo cảm", 'Giai đoạn định tình': "Giai đoạn xác nhận" };
+const Es = ["Giai đoạn xa lạ", 'Giai đoạn thiện cảm', "Giai đoạn rung động", "Giai đoạn xác nhận", 'Giai đoạn yêu sâu đậm'],
+  ys = { 'Giai đoạn xa cách': "Giai đoạn xa lạ", 'Giai đoạn để ý': 'Giai đoạn thiện cảm', 'Giai đoạn định tình': "Giai đoạn xác nhận" };
 function xs(e) {
   const t = e.match(/^\[(?:角色|Nhân vật)\]\s*(.+?)\s*-\s*(.+)$/);
   if (!t) return null;
@@ -4859,15 +4859,15 @@ function xs(e) {
 function As(e, t) {
   if ("Ngu Tịch Nhan" === e) {
     return (
-      { 'Giai đoạn xa lạ': [-999, -999], 'Giai đoạn hảo cảm': [-200, 80], 'Giai đoạn rung động': [81, 120], 'Giai đoạn xác nhận': [121, 160], 'Giai đoạn yêu sâu sắc': [161, 200] }[t] ?? null
+      { 'Giai đoạn xa lạ': [-999, -999], 'Giai đoạn thiện cảm': [-200, 80], 'Giai đoạn rung động': [81, 120], 'Giai đoạn xác nhận': [121, 160], 'Giai đoạn yêu sâu đậm': [161, 200] }[t] ?? null
     );
   }
   if ("An Trì Trì" === e) {
     return (
-      { 'Giai đoạn xa lạ': [-200, 39], 'Giai đoạn hảo cảm': [40, 79], 'Giai đoạn rung động': [80, 119], 'Giai đoạn xác nhận': [120, 159], 'Giai đoạn yêu sâu sắc': [160, 200] }[t] ?? null
+      { 'Giai đoạn xa lạ': [-200, 39], 'Giai đoạn thiện cảm': [40, 79], 'Giai đoạn rung động': [80, 119], 'Giai đoạn xác nhận': [120, 159], 'Giai đoạn yêu sâu đậm': [160, 200] }[t] ?? null
     );
   }
-  return { 'Giai đoạn xa lạ': [-200, 40], 'Giai đoạn hảo cảm': [41, 80], 'Giai đoạn rung động': [81, 120], 'Giai đoạn xác nhận': [121, 160], 'Giai đoạn yêu sâu sắc': [161, 200] }[t] ?? null;
+  return { 'Giai đoạn xa lạ': [-200, 40], 'Giai đoạn thiện cảm': [41, 80], 'Giai đoạn rung động': [81, 120], 'Giai đoạn xác nhận': [121, 160], 'Giai đoạn yêu sâu đậm': [161, 200] }[t] ?? null;
 }
 function Cs(e, t) {
   const n = t.match(/^\[(?:角色|Nhân vật)\]\s*([^-]+)$/);
@@ -5007,11 +5007,11 @@ function Bs(e) {
 const Ds = [
   { entryPattern: /^\[(?:系统|Hệ thống)\]/, shouldEnable: () => !0, priority: 100 },
   { entryPattern: /^\[mvu_update\]/, shouldEnable: () => !0, priority: 100 },
-  { entryPattern: /^\[mvu\](?:变量列表|Danh sách biến)$/, shouldEnable: () => !0, priority: 100 },
+  { entryPattern: /^(?:\[mvu\]\s*)?(?:变量列表|Danh sách biến)$/, shouldEnable: () => !0, priority: 100 },
   { entryPattern: "[Bản đồ] Cấu trúc không gian thế giới", shouldEnable: () => !0, priority: 100 },
-  { entryPattern: /(?:(?:宗门|tông môn)(?:势|Thế)(?:力|Lực)-(?:低|Thấp)token(?:底板|Tấm nền)|\[(?:宗门|tông môn)\]\s*(?:底板|Tấm nền))/, shouldEnable: () => !0, priority: 95 },
+  { entryPattern: /(?:宗门势力-低token底板|\[(?:宗门|[Tt]ông môn)\]\s*(?:底板|Tấm nền)|Thế lực tông môn\s*-\s*Tấm nền(?: token thấp)?)/, shouldEnable: () => !0, priority: 95 },
   {
-    entryPattern: /(?:(?:宗门|tông môn)(?:势|Thế)(?:力|Lực)-(?:当前|Hiện tại)(?:地域|địa vực)ESJ|\[(?:宗门|tông môn)\]\s*(?:当前|Hiện tại)(?:地域|địa vực))/,
+    entryPattern: /(?:宗门势力-当前地域ESJ|\[(?:宗门|[Tt]ông môn)\]\s*(?:当前地域|[Đđ]ịa vực hiện tại)|Thế lực tông môn\s*-\s*[Đđ]ịa vực hiện tại)/,
     shouldEnable: (e) => {
       const t = fs(e);
       return (
@@ -5026,7 +5026,7 @@ const Ds = [
     priority: 94,
   },
   {
-    entryPattern: /(?:(?:宗门|tông môn)(?:势|Thế)(?:力|Lực)-(?:当前主势力|Thế lực chính hiện tại)ESJ|\[(?:宗门|tông môn)\]\s*(?:当前主势力|Thế lực chính hiện tại))/,
+    entryPattern: /(?:宗门势力-当前主势力ESJ|\[(?:宗门|[Tt]ông môn)\]\s*(?:当前主势力|Thế lực (?:chính|chủ đạo) hiện tại)|Thế lực tông môn\s*-\s*Thế lực (?:chính|chủ đạo) hiện tại)/,
     shouldEnable: (e) => {
       const t = gs(e);
       return (
@@ -5110,10 +5110,10 @@ const Ds = [
   },
   { entryPattern: /^\[(?:角色|Nhân vật)\]\s*([^-]+)$/, shouldEnable: (e, t) => Boolean(t && Cs(e, t)?.matched), priority: 8 },
   {
-    entryPattern: /^\[(?:境界|cảnh giới)\]\s*(.+)$/,
+    entryPattern: /^\[(?:境界|[Cc]ảnh giới)\]\s*(.+)$/,
     shouldEnable: (e, t) => {
       if (!t) return !1;
-      const n = t.match(/^\[(?:境界|cảnh giới)\]\s*(.+)$/);
+      const n = t.match(/^\[(?:境界|[Cc]ảnh giới)\]\s*(.+)$/);
       if (!n) return !1;
       const r = n[1].trim(),
         a = e.mvuData?.['Bản tôn']?.['Đẳng cấp'] ?? 1,
@@ -5134,12 +5134,12 @@ const Ds = [
     },
     priority: 7,
   },
-  { entryPattern: /^\[(?:红颜|Hồng nhan)(?:索引|Chỉ mục)\]$/, shouldEnable: () => !0, priority: 100 },
+  { entryPattern: /^(?:\[(?:红颜索引|Hồng nhan\s*Chỉ mục|Chỉ mục hồng nhan)\]|Chỉ mục hồng nhan)$/, shouldEnable: () => !0, priority: 100 },
   {
-    entryPattern: /^\[((?:物品|Vật phẩm)|(?:法宝|pháp bảo)|(?:功法|công pháp)|(?:势|Thế)(?:力|Lực)|(?:地点|Địa điểm)|(?:灵根|linh căn)|(?:体质|Thể chất))\]\s*(.+)$/,
+    entryPattern: /^\[((?:物品|Vật phẩm)|(?:法宝|pháp bảo)|(?:功法|công pháp)|(?:势力|Thế lực)|(?:地点|Địa điểm)|(?:灵根|linh căn)|(?:体质|Thể chất))\]\s*(.+)$/,
     shouldEnable: (e, t) => {
       if (!t) return !1;
-      const n = t.match(/^\[((?:物品|Vật phẩm)|(?:法宝|pháp bảo)|(?:功法|công pháp)|(?:势|Thế)(?:力|Lực)|(?:地点|Địa điểm)|(?:灵根|linh căn)|(?:体质|Thể chất))\]\s*(.+)$/);
+      const n = t.match(/^\[((?:物品|Vật phẩm)|(?:法宝|pháp bảo)|(?:功法|công pháp)|(?:势力|Thế lực)|(?:地点|Địa điểm)|(?:灵根|linh căn)|(?:体质|Thể chất))\]\s*(.+)$/);
       if (!n) return !1;
       const r = n[1],
         a = n[2].trim(),
@@ -5577,8 +5577,8 @@ async function Ys(e = "enable", t = {}) {
             const t =
               /^\[(?:系统|Hệ thống)\]/.test(r) ||
               /^\[mvu_update\]/.test(r) ||
-              /^\[mvu\](?:变量列表|Danh sách biến)$/.test(r) ||
-              /^\[(?:红颜|Hồng nhan)(?:索引|Chỉ mục)\]$/.test(r);
+              /^(?:\[mvu\]\s*)?(?:变量列表|Danh sách biến)$/.test(r) ||
+              /^(?:\[(?:红颜索引|Hồng nhan\s*Chỉ mục|Chỉ mục hồng nhan)\]|Chỉ mục hồng nhan)$/.test(r);
             l.matched && "constant" !== m
               ? ((n.strategy.type = "constant"),
                 s++,
