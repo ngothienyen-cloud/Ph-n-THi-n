@@ -2,7 +2,7 @@
     "id": "04c0dcf3-a783-457c-bfae-ed7392ab4db3",
     "scriptName": "Đăng Hỏa Lan San - Frontend ngụy đồng tầng (Việt hóa)",
     "findRegex": "/(?:<visual_cards>[\\s\\S]*?<\\/visual_cards>(?:\\s*<pseudo_layer>\\s*(?:Đăng Hỏa Lan San|Đăng Hỏa Thông Minh)\\s*<\\/pseudo_layer>)?|<pseudo_layer>\\s*(?:Đăng Hỏa Lan San|Đăng Hỏa Thông Minh)\\s*<\\/pseudo_layer>)/gsi",
-    "replaceString": "```html\n<body>\n<script>\n$('body').load('https://cdn.jsdelivr.net/gh/ngothienyen-cloud/Ph-n-THi-n@c3878230f77dfc3df988831e062498a1b19bd722/dang_hoa_lan_san/index.html')\n</script>\n</body>\n```",
+    "replaceString": "```html\n<body>\n<script>\n$('body').load('https://cdn.jsdelivr.net/gh/ngothienyen-cloud/Ph-n-THi-n@32de237861baca146914eaee177462086e92ad0e/dang_hoa_lan_san/index.html')\n</script>\n</body>\n```",
     "trimStrings": [],
     "placement": [
         2
