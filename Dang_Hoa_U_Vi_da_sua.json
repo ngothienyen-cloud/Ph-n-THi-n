@@ -135,7 +135,7 @@
             "enabled": true,
             "name": "Đăng Hỏa Lan San - Cấu trúc biến",
             "id": "41c927d7-f302-43a4-b375-d726d85cca42",
-            "content": "import 'https://cdn.jsdelivr.net/gh/ngothienyen-cloud/Ph-n-THi-n@ad941f552e9be9427e39a59903ac2a440f6f8256/cau_truc_bien/index.js'",
+            "content": "import 'https://cdn.jsdelivr.net/gh/ngothienyen-cloud/Ph-n-THi-n@48fcc505fb3935515baca9019cf8a3c1417912f4/cau_truc_bien/index.js'",
             "info": "",
             "button": {
               "enabled": true,
@@ -152,7 +152,7 @@
             "enabled": true,
             "name": "Đăng Hỏa Lan San - Quản lý sách thế giới động",
             "id": "d076c8d3-7a4a-49e4-a67d-e8b1685c28e7",
-            "content": "import 'https://cdn.jsdelivr.net/gh/ngothienyen-cloud/Ph-n-THi-n@ad941f552e9be9427e39a59903ac2a440f6f8256/quan_ly_sach_the_gioi_dong/index.js'",
+            "content": "import 'https://cdn.jsdelivr.net/gh/ngothienyen-cloud/Ph-n-THi-n@48fcc505fb3935515baca9019cf8a3c1417912f4/quan_ly_sach_the_gioi_dong/index.js'",
             "info": "",
             "button": {
               "enabled": true,
@@ -181,7 +181,7 @@
             "enabled": true,
             "name": "Chỉ mục lời mở đầu",
             "id": "3e0562a0-8a6d-4317-9e39-4e2df571ba45",
-            "content": "import 'https://cdn.jsdelivr.net/gh/ngothienyen-cloud/Ph-n-THi-n@ad941f552e9be9427e39a59903ac2a440f6f8256/chi_muc_loi_mo_dau/index.js'",
+            "content": "import 'https://cdn.jsdelivr.net/gh/ngothienyen-cloud/Ph-n-THi-n@48fcc505fb3935515baca9019cf8a3c1417912f4/chi_muc_loi_mo_dau/index.js'",
             "info": "",
             "button": {
               "enabled": true,
@@ -203,7 +203,7 @@
             "enabled": true,
             "name": "Đăng Hỏa Lan San - Bộ điều khiển ngụy đồng tầng",
             "id": "2fb52168-63f0-41c8-a056-8406b0e51d72",
-            "content": "import 'https://cdn.jsdelivr.net/gh/ngothienyen-cloud/Ph-n-THi-n@ad941f552e9be9427e39a59903ac2a440f6f8256/dieu_khien_nguy_dong_tang/index.js'",
+            "content": "import 'https://cdn.jsdelivr.net/gh/ngothienyen-cloud/Ph-n-THi-n@48fcc505fb3935515baca9019cf8a3c1417912f4/dieu_khien_nguy_dong_tang/index.js'",
             "info": "",
             "button": {
               "enabled": true,
@@ -294,7 +294,7 @@
           "id": "10d842e6-e354-4318-a3f7-82336174a93c",
           "scriptName": "Đăng Hỏa Lan San - Frontend ngụy đồng tầng",
           "findRegex": "/(?:<visual_cards>[\\s\\S]*?<\\/visual_cards>(?:\\s*<pseudo_layer>\\s*(?:Đăng Hỏa Lan San|Đăng Hỏa Thông Minh)\\s*<\\/pseudo_layer>)?|<pseudo_layer>\\s*(?:Đăng Hỏa Lan San|Đăng Hỏa Thông Minh)\\s*<\\/pseudo_layer>)/gsi",
-          "replaceString": "```html\n<body>\n<script>\n$('body').load('https://cdn.jsdelivr.net/gh/ngothienyen-cloud/Ph-n-THi-n@ad941f552e9be9427e39a59903ac2a440f6f8256/dang_hoa_lan_san/index.html')\n</script>\n</body>\n```",
+          "replaceString": "```html\n<body>\n<script>\n$('body').load('https://cdn.jsdelivr.net/gh/ngothienyen-cloud/Ph-n-THi-n@48fcc505fb3935515baca9019cf8a3c1417912f4/dang_hoa_lan_san/index.html')\n</script>\n</body>\n```",
           "trimStrings": [],
           "placement": [
             2
